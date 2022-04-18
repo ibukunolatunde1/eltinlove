@@ -102,6 +102,11 @@ h1, h2, h3, h4, h5, h6 {
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
+  .logo{
+    position: relative;
+    height: 57px;
+    bottom: 19px;
+  }
 }
 #qbootstrap-header .navbar {
   padding-bottom: 0;
@@ -255,6 +260,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   padding-bottom: 20px;
   line-height: 1.5;
+  font-weight: bold;
 }
 @media screen and (max-width: 768px) {
   .section-heading h2 {
@@ -621,7 +627,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media screen and (max-width: 768px) {
   #qbootstrap-couple h3 {
-    font-size: 35px;
+    font-size: 40px;
   }
 }
 #qbootstrap-couple span {
@@ -1686,12 +1692,12 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
-.white{
+/*.white{
   filter: invert(100%) sepia(0%) saturate(7437%) hue-rotate(321deg) brightness(108%) contrast(115%);
-}
+}*/
 .logo{
-  position: absolute;
-  height: 80px;
-  bottom: 10px;
+  position: relative;
+  height: 57px;
+  bottom: 19px;
 }
 /*# sourceMappingURL=style.css.map */
